@@ -33,12 +33,25 @@
                 font-size:17px;
                 text-shadow:0 0 1px #000;
                 cursor:pointer;
+                text-align:center;
+                color:#fff;
+                border-right:0;
+                background:linear-gradient(#00adee,#0078a5);
+                border:1px solid #0076a3;
+            }
+            input[type=submit]:hover{
+                background:linear-gradient(#0095,#00678e);
+
+
+            }
+            input[type=text]:focus,input[type=submit]:focus{
+                outline:none;
             }
         </style>
     </head>
 <body>
     <div class ="main">
-        <form>
+        <form action="http://www.youtube.com" target="_blank">
             <input type="text" name="search" placeholder ="Search..">
             <input type="submit" value="Search">
         </form>
